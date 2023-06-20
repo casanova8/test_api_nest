@@ -23,7 +23,7 @@ curl --location 'localhost:3000/auth/login' --header 'Content-Type: application/
 /leaderboard
 
 e.g:
-curl --location --request GET 'localhost:3000/leaderboard' --header 'Content-Type: application/x-www-form-urlencoded' --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwic2lkIjoiUUtBQk5KRkV5YTB5aWwzcE5BeWJ5IiwiaWF0IjoxNjg3MjQ0MTUxLCJleHAiOjE2ODcyNDUwNTEsInN1YiI6IjEifQ.xv_qpR-zkFcJbJwFluSZ67AhxV9418KnDJE1O6n-ZaU' --data-urlencode 'score=100' --data-urlencode 'username=admin'
+curl --location --request GET 'localhost:3000/leaderboard' --header 'Content-Type: application/x-www-form-urlencoded' --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwic2lkIjoiUUtBQk5KRkV5YTB5aWwzcE5BeWJ5IiwiaWF0IjoxNjg3MjQ0MTUxLCJleHAiOjE2ODcyNDUwNTEsInN1YiI6IjEifQ.xv_qpR-zkFcJbJwFluSZ67AhxV9418KnDJE1O6n-ZaU' 
 
 /scores
 
